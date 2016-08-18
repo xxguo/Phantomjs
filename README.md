@@ -5,7 +5,7 @@
 用项目路径下的phantomjs_fetcher.js启动：phantomjs phantomjs_fetcher.js [port]
 安装tornado依赖（使用了tornado的httpclient模块）
 
-
+```
 from tornado_fetcher import Fetcher
 
 # 创建一个爬虫
@@ -19,3 +19,5 @@ from tornado_fetcher import Fetcher
 >>> fetcher.phantomjs_fetch(url)
 # 渲染成功后执行额外的JS脚本（注意用function包起来！）
 >>> fetcher.phantomjs_fetch(url, js_script='function(){setTimeout("window.scrollTo(0,100000)}", 1000)')
+
+```
