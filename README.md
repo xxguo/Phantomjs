@@ -21,3 +21,5 @@ from tornado_fetcher import Fetcher
 >>> fetcher.phantomjs_fetch(url, js_script='function(){setTimeout("window.scrollTo(0,100000)}", 1000)')
 
 ```
+
+## 时间仓促，功能和代码都比较简陋，以后有时间再改进。喜欢的在github上给个star。感谢！
