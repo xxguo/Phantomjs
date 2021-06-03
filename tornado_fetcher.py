@@ -11,6 +11,7 @@ import tornado.ioloop
 def text(obj, encoding='utf-8'):
     if isinstance(obj, unicode):
         return obj.encode(encoding)
+    # 的
     return obj
 
 
